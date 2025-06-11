@@ -16,29 +16,36 @@
         <header>
             <!-- Your header content here -->
              <div class="banner-text">
+                <nav id="navigation">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="featured.html">Featured</a></li>
+                    </ul>
+                </nav>
                 <h1>Liliana's Lullabies</h1>
              </div>
+             
 
         </header>
 
         <main> 
             <!-- Your main content here -->
-             <section id="card-grid">
-                <div class="playlist-cards">
-                    <section class="music-card">
-                        <div class="img-container">
-                            <img src="assets/img/song.png" alt="/ song img /">                
+            <section>
+                <div id="card-grid" class="playlist-cards">
+                    <!--<section class="music-card">
+                        <div class="card-img-container">
+                            <img src="assets/img/playlist.png" alt="/ song img /">                
                         </div>
-                        <h2>/ title /</h2>
+                        <h2>/ playlist title /</h2>
                         <p>/ creator name /</p>
                         <div class="like-container">
                             <img src="assets/img/empty-like.png" class="like-btn" alt="empty like button">
                             <span class="like-count">0</span>
                         </div>
-                    </section>
+                    </section>-->
                 </div>
-             </section>
-             <div id="music-modal" class="modal">
+            </section>
+            <div id="music-modal" class="modal">
                 <div class="modal-content">
                     <span class="close">&times;</span>
                     <div class="playlist-header">
@@ -46,6 +53,7 @@
                         <div class="playlist-info">
                             <h2 id="playlist-title">/ Playlist Title /</h2>
                             <p id="playlist-creator">/ creator name /</p>
+                            <button id="shuffle"></button>
                         </div>
                     </div>
                     <div class="song-list">
@@ -60,7 +68,7 @@
                         </div>
                     </div>
                 </div>
-             </section>
+            </div>
         </main>
 
     </div>
@@ -69,7 +77,7 @@
             <p>&copy; 2025 Liliana's Lullabies</p>
     </footer>
     
-    <script src="data/data.js"></script>
+    <script src="data.json"></script>
     <script src="script.js"></script>
 </body>
 </html>

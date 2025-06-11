@@ -1,0 +1,184 @@
+{
+    "playlists": [
+        {
+            "playlistID": 1,
+            "playlist_name": "Chill Vibes",
+            "playlist_author": "Alice",
+            "playlist_art": "playlist.png",
+            "likes": 0,
+            "songs": [
+                {
+                    "songID": 101,
+                    "title": "Morning Sun",
+                    "artist": "Sunrise Band",
+                    "duration": "3:45"
+                },
+                {
+                    "songID": 102,
+                    "title": "Late Night Drive",
+                    "artist": "Night Riders",
+                    "duration": "4:20"
+                }
+            ]
+        },
+        {
+            "playlistID": 2,
+            "playlist_name": "Liliana's Favs ♡",
+            "playlist_author": "Liliana",
+            "playlist_art": "playlist.png",
+            "likes": 1024,
+            "songs": [
+                {
+                    "songID": 301,
+                    "title": "Paranoia",
+                    "artist": "The Marias",
+                    "duration": "3:27"
+                },
+                {
+                    "songID": 305,
+                    "title": "Telepatía",
+                    "artist": "Kali Uchis",
+                    "duration": "2:42"
+                },
+                {
+                    "songID": 306,
+                    "title": "Silver Lining",
+                    "artist": "Laufey",
+                    "duration": "3:12"
+                },
+                {
+                    "songID": 304,
+                    "title": "2DK",
+                    "artist": "Grent Perez",
+                    "duration": "2:45"
+                },
+                {
+                    "songID": 307,
+                    "title": "Still Love You (todavia)",
+                    "artist": "The Tulips",
+                    "duration": "3:18"
+                }
+            ]
+        },
+        {
+            "playlistID": 3,
+            "playlist_name": "Workout Hits",
+            "playlist_author": "Adrian",
+            "playlist_art": "playlist.png",
+            "likes": 58,
+            "songs": [
+                {
+                "songID": 201,
+                "title": "Pump It Up",
+                "artist": "Gym Beats",
+                "duration": "3:30"
+                },
+                {
+                "songID": 202,
+                "title": "Endurance",
+                "artist": "Run Fast",
+                "duration": "2:50"
+                }
+            ]
+        },
+        {
+            "playlistID": 4,
+            "playlist_name": "Indie Dreamscape",
+            "playlist_author": "Liliana",
+            "playlist_art": "playlist.png",
+            "likes": 73,
+            "songs": [
+                {
+                    "songID": 301,
+                    "title": "Cariño",
+                    "artist": "The Marias",
+                    "duration": "3:27"
+                },
+                {
+                    "songID": 302,
+                    "title": "Lover Boy",
+                    "artist": "Phum Viphurit",
+                    "duration": "4:09"
+                },
+                {
+                    "songID": 303,
+                    "title": "Someone to Spend Time With",
+                    "artist": "Los Retros",
+                    "duration": "3:00"
+                },
+                {
+                    "songID": 304,
+                    "title": "Cherry Wine",
+                    "artist": "Grent Perez",
+                    "duration": "2:45"
+                }
+            ]
+        },
+        {
+            "playlistID": 5,
+            "playlist_name": "K-Pop Energy",
+            "playlist_author": "K-Pop Enthusiast",
+            "playlist_art": "playlist.png",
+            "likes": 120,
+            "songs": [
+                {
+                    "songID": 401,
+                    "title": "Dynamite",
+                    "artist": "BTS",
+                    "duration": "3:19"
+                },
+                {
+                    "songID": 402,
+                    "title": "Super Shy",
+                    "artist": "NewJeans",
+                    "duration": "2:34"
+                },
+                {
+                    "songID": 403,
+                    "title": "Debut",
+                    "artist": "KATSEYE",
+                    "duration": "3:12"
+                },
+                {
+                    "songID": 404,
+                    "title": "Pink Venom",
+                    "artist": "BLACKPINK",
+                    "duration": "3:07"
+                }
+            ]
+        },
+        {
+            "playlistID": 6,
+            "playlist_name": "Latin Pop & Chill",
+            "playlist_author": "Latin Music Enthusiast",
+            "playlist_art": "playlist.png",
+            "likes": 88,
+            "songs": [
+                {
+                    "songID": 501,
+                    "title": "La Canción",
+                    "artist": "Bad Bunny",
+                    "duration": "4:02"
+                },
+                {
+                    "songID": 502,
+                    "title": "Provenza",
+                    "artist": "Karol G",
+                    "duration": "3:29"
+                },
+                {
+                    "songID": 503,
+                    "title": "Lo Que Siento",
+                    "artist": "Cuco",
+                    "duration": "4:00"
+                },
+                {
+                    "songID": 504,
+                    "title": "Lover's Carvings",
+                    "artist": "Bibio",
+                    "duration": "3:50"
+                }
+            ]
+        }
+    ]
+}

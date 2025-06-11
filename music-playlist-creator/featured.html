@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <title>Featured Playlist</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="main-container">
+            <header>
+                <div class="banner-text">
+                    <nav id="navigation">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="featured.html">Featured</a></li>
+                        </ul>
+                    </nav>
+                    <h1>Featured Playlist</h1>
+                </div>
+            </header>
+            <div class="featured-content">
+                <div class="playlist-header">
+                    <img class="playlist-cover" src="assets/img/playlist.png" alt="playlist image">
+                    <div class="playlist-info">
+                        <h2 id="playlist-title">/ Playlist Title /</h2>
+                        <p id="playlist-creator">/ creator name /</p>
+                        <button id="shuffle"></button>
+                    </div>
+                </div>
+                <div class="song-list">
+                    <div class="song-row">
+                        <img class="song-thumb" src="assets/img/song.png" alt="Song">
+                        <div class="song-meta">
+                            <div class="song-title">Song Title</div>
+                            <div class="song-artist">Artist Name</div>
+                            <div class="song-album">Album Name</div>
+                        </div>
+                        <div class="song-duration">0:00</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="data.json"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
