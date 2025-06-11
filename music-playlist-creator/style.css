@@ -126,6 +126,8 @@ nav ul li a {
 }
 .featured-content {
     margin: 0 auto;
+    margin-bottom: 50px;
+    margin-top: 65px;
     width: 100%;
     max-width: 1400px;
     min-height: auto;

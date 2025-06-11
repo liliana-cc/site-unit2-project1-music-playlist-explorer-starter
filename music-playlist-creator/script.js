@@ -79,7 +79,7 @@ document.addEventListener("DOMContentLoaded", () => {
             const row = document.createElement("div");
             row.className = "song-row";
             row.innerHTML = `
-            <img class="song-thumb" src="assets/img/song.png" alt="Song">
+            <img class="song-thumb" src="assets/img/${s.img}" alt="Song">
             <div class="song-meta">
                 <div class="song-title">${s.title}</div>
                 <div class="song-artist">${s.artist}</div>
@@ -93,7 +93,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     // shuffleArray
-    function shuffleArray(array) {
+    function shuffleArray(array) {  // fisher-yates shuffle yay
     for (let i = array.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
         [array[i], array[j]] = [array[j], array[i]];
