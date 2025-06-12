@@ -2,7 +2,7 @@
 
 Submitted by: **Liliana Cantero**
 
-Estimated time spent: **9** hours spent in total
+Estimated time spent: **8** hours spent in total
 
 Deployed Application (**required**): [Music Playlist Explorer Deployed Site](https://site-unit2-project1-music-playlist-6s9k.onrender.com)
 
