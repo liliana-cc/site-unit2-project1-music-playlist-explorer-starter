@@ -4,7 +4,7 @@ Submitted by: **Liliana Cantero**
 
 Estimated time spent: **9** hours spent in total
 
-Deployed Application (**required**): [Music Playlist Explorer Deployed Site](ADD_LINK_HERE)
+Deployed Application (**required**): [Music Playlist Explorer Deployed Site](https://site-unit2-project1-music-playlist-6s9k.onrender.com)
 
 ### Application Features
 
@@ -48,14 +48,14 @@ Deployed Application (**required**): [Music Playlist Explorer Deployed Site](ADD
     - [x] If previously liked:
       - [x] The like count on the playlist tile should decrease by 1.
       - [x] There should be visual feedback (such as the heart turning a different color) to show that the playlist has been unliked by the user.
-    - [ ] **VIDEO WALKTHROUGH SPECIAL INSTRUCTIONS:** In addition to showcasing the above features, for ease of grading, please film yourself liking and unliking:
-      - [ ] a playlist with a like count of 0
-      - [ ] a playlist with a non-zero like count
+    - [x] **VIDEO WALKTHROUGH SPECIAL INSTRUCTIONS:** In addition to showcasing the above features, for ease of grading, please film yourself liking and unliking:
+      - [x] a playlist with a like count of 0
+      - [x] a playlist with a non-zero like count
 
 - [x] **Shuffle Songs**
   - [x] Enable users to shuffle the songs within a playlist using a shuffle button in the playlist's detail modal.
   - [x] When the shuffle button is clicked, the playlist's songs should display in a different order.
-  - [ ] **VIDEO WALKTHROUGH SPECIAL INSTRUCTIONS:** In addition to showcasing the above features, for ease of grading, please show yourself shuffling the same playlist more than once. 
+  - [x] **VIDEO WALKTHROUGH SPECIAL INSTRUCTIONS:** In addition to showcasing the above features, for ease of grading, please show yourself shuffling the same playlist more than once. 
   
 - [x] **Featured Page**
   - [x] Application includes a dedicated page that randomly selects and displays a playlist, showing the playlist’s:
@@ -68,7 +68,7 @@ Deployed Application (**required**): [Music Playlist Explorer Deployed Site](ADD
   - [x] When the page is refreshed or reloaded, a new random playlist is displayed
     - For example, navigating to the all playlists page and then back to the featured playlist page should result in a new random playlist being displayed
     - Note that because your algorithm will not be truly random, it is possible that the same playlist will feature twice in a row. 
-    - [ ] **VIDEO WALKTHROUGH SPECIAL INSTRUCTIONS:** In addition to showcasing the above features, for ease of grading, please show yourself refreshing the featured page more than once. 
+    - [x] **VIDEO WALKTHROUGH SPECIAL INSTRUCTIONS:** In addition to showcasing the above features, for ease of grading, please show yourself refreshing the featured page more than once. 
   - [x] Application includes a navigation bar or some other mechanism such that users can navigate to the page with all playlists from the featured page and vice versa without using the browser's back and forward buttons. 
 
 #### STRETCH FEATURES
@@ -102,7 +102,7 @@ Deployed Application (**required**): [Music Playlist Explorer Deployed Site](ADD
   - [ ] When clicked, the playlist is removed from the playlist grid view.
 
 - [x] **Search Functionality**
-  - [ ] Implement a search bar that allows users to filter playlists by:
+  - [x] Implement a search bar that allows users to filter playlists by:
     - [x] Name 
     - [x] Author
   - [x] The search bar should include:
@@ -129,10 +129,9 @@ Deployed Application (**required**): [Music Playlist Explorer Deployed Site](ADD
   - [ ] Selecting a sort option should result in a reordering based on the selected sort while maintaining a grid view.
 
 ### Walkthrough Video
+[Walkthrough Video Link](https://www.loom.com/share/7a10eb45dcb8418c90937f94485be77d?sid=6ceb1ddc-e553-4bca-bd6f-31a3c37ea7d4)
 
-`TODO://` Add the embedded URL code to your animated app walkthrough below, `ADD_EMBEDDED_CODE_HERE`. Make sure the video actually renders and is playable when viewing this README. Ensure your walkthrough showcases the presence and/or functionality of all features you implemented above (check them off as you film!). Pay attention to any **VIDEO WALKTHROUGH SPECIAL INSTRUCTIONS** checkboxes listed above to ensure graders see the full functionality of your website! (🚫 Remove this paragraph after adding walkthrough video)
-
-`ADD_EMBEDDED_CODE_HERE`
+`<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/7a10eb45dcb8418c90937f94485be77d?sid=62edb27a-11aa-4773-8726-26bb0fe2aa07" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>`
 
 ### Reflection
 
