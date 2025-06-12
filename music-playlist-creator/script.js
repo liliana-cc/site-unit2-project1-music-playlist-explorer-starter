@@ -7,10 +7,14 @@ document.addEventListener("DOMContentLoaded", () => {
     const modalAuthor = document.getElementById("playlist-creator");
     const modalSongs = document.querySelector(".song-list");
     const shuffleBtn = document.getElementById("shuffle");
-    
+    const searchInput = document.getElementById("playlist-search"); // search functionality
+    const searchBtn = document.getElementById("search-btn");
+    const clearBtn = document.getElementById("clear-btn");
+
+    let allPlaylists = []; 
     let currentPlaylist = null;
 
-    //  1) load playlists via fetch().then() chaining
+    //  1) load playlists via fetch().then() chaining - fetching and storing playlists -> then render
     fetch("data.json")
     .then((response) => {
         if(!response.ok) {  // if haven't received data
@@ -19,11 +23,21 @@ document.addEventListener("DOMContentLoaded", () => {
         return response.json();  // data is received
     })
     .then((data) => {
-        data.playlists.forEach(createPlaylistTile);
+        allPlaylists = data.playlists; // Store all playlists
+        renderPlaylists(allPlaylists); // Initial render
     })
     .catch((err) => {
         console.error("Failed to load playlists:", err);
     });
+
+    // Helper function to render playlists
+    function renderPlaylists(playlists) {
+        container.innerHTML = ""; // Clear old cards
+        playlists.forEach(createPlaylistTile);
+        if (playlists.length === 0) {
+            container.innerHTML = "<p style='color: #fff; text-align:center;'>No playlists found.</p>";
+        }
+    }
 
     // 2) creating each card
     function createPlaylistTile(pl) {
@@ -108,7 +122,7 @@ document.addEventListener("DOMContentLoaded", () => {
             const row = document.createElement("div");
             row.className = "song-row";
             row.innerHTML = `
-            <img class="song-thumb" src="assets/img/song.png" alt="Song">
+            <img class="song-thumb" src="assets/img/${s.img}" alt="Song">
             <div class="song-meta">
                 <div class="song-title">${s.title}</div>
                 <div class="song-artist">${s.artist}</div>
@@ -128,4 +142,40 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     });
 
+    // 5) search yay -> listen to input -> filter playlists
+    if (searchInput) {
+        searchInput.addEventListener("input", (e) => {
+            const query = e.target.value.trim().toLowerCase();  // lower case !!
+            if (!query) {
+                renderPlaylists(allPlaylists);  // using helper function :3
+                return;
+            }
+            const filtered = allPlaylists.filter(pl =>
+                pl.playlist_name.toLowerCase().includes(query) ||
+                pl.playlist_author.toLowerCase().includes(query)
+            );
+            renderPlaylists(filtered);
+        });
+        if (searchBtn) {
+            searchBtn.addEventListener("click", () => {
+                const query = searchInput.value.trim().toLowerCase();
+                if (!query) {
+                    renderPlaylists(allPlaylists);
+                    return;
+                }
+                const filtered = allPlaylists.filter(pl =>
+                    pl.playlist_name.toLowerCase().includes(query) ||
+                    pl.playlist_author.toLowerCase().includes(query)
+                );
+                renderPlaylists(filtered);
+            });
+        }
+        if (clearBtn) {
+            clearBtn.addEventListener("click", () => {
+                searchInput.value = "";
+                renderPlaylists(allPlaylists);
+                searchInput.focus();
+            });
+        }
+    }
 })

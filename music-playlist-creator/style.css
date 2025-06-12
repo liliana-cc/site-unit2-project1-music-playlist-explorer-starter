@@ -13,29 +13,58 @@ body {
     font-size: 20px;
     color: #fff;
 }
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
 nav ul {
     list-style: none;
     display: flex;
-    justify-content: flex-end;
+    align-items: center;
     margin: 0;
     padding: 0;
 }
-nav ul li {
-    flex: 1;
-    border-radius: 10px;
-    padding: 10px;
+nav ul input {
+    margin: 0;
+    height: 35px;
+    width: 30vw;
+    border-radius: 20px;
 }
-nav ul li:hover {
+nav ul input[type=text] {
+    padding: 6px;
+    border: none;
+    margin-left: 16px;
+    font-size: 16px;
+}
+nav ul li {
+    flex: 0;
+}
+nav ul li:hover, nav ul input:hover {
     transform: translateY(-5px) scale(1.03);
-    box-shadow: 0 8px 24px rgb(55, 17, 132);
     text-decoration: none;
     cursor: pointer;
 }
 nav ul li a {
+    width: 140px;
+    height: 35px;
     text-decoration: none;
-    color: #820d9c;
+    background-color: #cd6aff4b;
+    color: #e055ff;
+    border-radius: 30px;
+    padding: 10px;
 }
-
+.nav-left {
+    display: flex;
+    gap: 10px;
+}
+.nav-left li a {
+    display: block;
+    width: 120px;
+    height: 30px;
+    text-align: center;
+}
 .main-container {
     width: 80%;
     background: #000000;
@@ -132,13 +161,14 @@ nav ul li a {
     max-width: 1400px;
     min-height: auto;
     border-radius: 15px;
-    box-shadow: 0 4px 24px #656d83;
+    box-shadow: 0 4px 24px #454b5c;
     padding: 32px;
     color: #fff;
     box-sizing: border-box;
     display: flex;
     justify-content: space-between;
     gap: 32px;
+    background: #1903a9;
 }
 .featured-content .song-list {
     width: 60%;

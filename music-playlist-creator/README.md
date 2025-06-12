@@ -101,20 +101,20 @@ Deployed Application (**required**): [Music Playlist Explorer Deployed Site](ADD
   - [ ] Add a delete button to each playlist tile within the grid view.
   - [ ] When clicked, the playlist is removed from the playlist grid view.
 
-- [ ] **Search Functionality**
+- [x] **Search Functionality**
   - [ ] Implement a search bar that allows users to filter playlists by:
-    - [ ] Name 
-    - [ ] Author
-  - [ ] The search bar should include:
-    - [ ] Text input field
-    - [ ] Submit/Search Button
-    - [ ] Clear Button
-  - [ ] Playlists matching the search query in the text input are displayed in a grid view when the user:
-    - [ ] Presses the Enter Key
-    - [ ] Clicks the Submit/Search Button 
-  - [ ] User can click the clear button. When clicked:
-    - [ ] All text in the text input field is deleted
-    - [ ] All playlists in the `data.json` file are displayed in a grid view
+    - [x] Name 
+    - [x] Author
+  - [x] The search bar should include:
+    - [x] Text input field
+    - [x] Submit/Search Button
+    - [x] Clear Button
+  - [x] Playlists matching the search query in the text input are displayed in a grid view when the user:
+    - [x] Presses the Enter Key
+    - [x] Clicks the Submit/Search Button 
+  - [x] User can click the clear button. When clicked:
+    - [x] All text in the text input field is deleted
+    - [x] All playlists in the `data.json` file are displayed in a grid view
     - [ ] **Optional:** If the Add Playlist, Edit Existing Playlist, or Delete Playlist stretch features were implemented:
       - [ ] If users can add a playlist, added playlists should be included in search results.
       - [ ] If users can edit a playlist, search results should reflect the latest edits to each playlist.
@@ -138,20 +138,23 @@ Deployed Application (**required**): [Music Playlist Explorer Deployed Site](ADD
 
 * Did the topics discussed in your labs prepare you to complete the assignment? Be specific, which features in your weekly assignment did you feel unprepared to complete?
 
-Add your response here
+Yes, the topics and course demos helped prepare me for this assignment very well. Having the class demos on GitHub also helped me refer back to what was gone over during class, which is something I did alot. The nature of our program is very fast-paced, but I think these resources truly helped me complete this assignment on-time and while also understanding the concepts on my own time.
 
 * If you had more time, what would you have done differently? Would you have added additional features? Changed the way your project responded to a particular event, etc.
   
-Add your response here
+If I had more time, I would add the functionality for users to log in and create their own playlists. This was, they would be able to save their progress / likes across all platforms and interactivity would be integral to the site.
 
 * Reflect on your project demo, what went well? Were there things that maybe didn't go as planned? Did you notice something that your peer did that you would like to try next time?
 
-Add your response here
+During my project demo, I realized that I was not reloading the images of my songs within my modal after shuffling. I kept my composure, even though I was internally freaking out, and continued my presentation. Afterwards, I immediately went to fix the feature. I am proud I immediately knew where the problem area in my code was. Alot of my peers are very talented at personalizing and desinging UX/UI within webpages, and I am inspired by every single one to experiment more with UX/UI.
 
 ### Open-source libraries used
 
-- Add any links to open-source libraries used in your project.
+- https://www.w3schools.com/howto/howto_css_searchbar.asp
+- https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array
 
 ### Shout out
 
 Give a shout out to somebody from your cohort that especially helped you during your project. This can be a fellow peer, instructor, TA, mentor, etc.
+
+I would love to shout out my roomate Paola for crashing out with me and also being a great UX/UI designer. Additionally, I would like to thank my advisor Devarsh and Alex for helping me throughout this process and being patient!
